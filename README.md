@@ -26,7 +26,12 @@ This project uses **Flask 3.0.0** as the application framework.
    python src/hello.py
    ```
 
-3. Open your browser and navigate to `http://localhost:5000`
+3. (Optional) Enable debug mode for development:
+   ```bash
+   FLASK_DEBUG=True python src/hello.py
+   ```
+
+4. Open your browser and navigate to `http://localhost:5000`
 
 ---
 
